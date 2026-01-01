@@ -1,0 +1,17 @@
+[project]
+name = "pyclean"
+version = "0.1.0"
+description = "A simple package to clean data."
+dependencies = [
+    "pandas>=2.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
