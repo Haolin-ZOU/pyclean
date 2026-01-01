@@ -11,6 +11,8 @@ from pyclean import clean_names
 df = pd.DataFrame({"First Name": ["Ada"], "Last.Name": ["Lovelace"]})
 print(clean_names(df).columns.tolist())
 Run tests
+
 ```
 pytest
+
 ```
